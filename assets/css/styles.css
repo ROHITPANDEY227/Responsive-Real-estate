@@ -610,9 +610,12 @@ body.dark-theme{
   margin-bottom: 2.5rem;
 }
 .contact__card{
-  display: grid;
-  grid-template-columns:repeat(2,1fr);
-  gap: 1.25rem .75;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  /* background-color: brown; */
+  margin-bottom:55px;
+  flex-wrap: wrap;
 }
 .contact__card-box{
   background-color: var(--body-color);
@@ -620,6 +623,7 @@ body.dark-theme{
   padding: 1.25rem .75rem;
   border-radius: .5rem;
   transition: .3s;
+  flex:1;
 }
 .contact__card-info{
   display: flex;
